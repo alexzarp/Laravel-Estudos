@@ -13,7 +13,7 @@
     // }
 @endphp
 
-{{-- @dd($fornecedores) --}}
+{{-- @dd($fornecedores) Visualisa as informaçãoes--}}
 
 @if (count($fornecedores) > 0 && count($fornecedores) < 10)
     <h3>Exitem alguns fornecedores cadastrados</h3>
@@ -72,6 +72,7 @@
 
     @if($loop->last)
         true
+        Total de registros: {{ $loop->count }}
     @endif
 @empty
     

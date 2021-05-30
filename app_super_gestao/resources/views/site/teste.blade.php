@@ -1,2 +1,3 @@
-Teste p1 = {{$p1}} <br>
-Teste p2 = {{$p2}}
+P1 = {{ $xyz }}
+<br />
+P1 = {{ $zzz }}
